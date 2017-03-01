@@ -1,2 +1,4 @@
 name: Audiobitts Landing Page
 markdown: kramdown
+sass:
+  sass_dir: _scss
