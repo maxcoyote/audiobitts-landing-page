@@ -1,6 +1,243 @@
 ---
 ---
 
-.test h1 {
-	font-size: 100px;
+@import "MuseoSans-500";
+
+// Fonts
+$headline: 'MuseoSans-500', sans-serif;
+$body: 'Lato', sans-serif;
+
+// Colors
+$blue-dark: #0D182A;
+$pink: #EE1B53;
+$pink-dark: #E82453;
+
+// Screens
+$screen-lg: 1200px;
+$screen-md: 992px;
+$screen-sm: 768px;
+$screen-xs: 480px;
+
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: $body;
+	line-height: 1.666666;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	font-family: $headline;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+h1, h2, h3 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	position: relative;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	@media (min-width: $screen-sm) {
+		width: 750px;
+	}
+	@media (min-width: $screen-md) {
+		width: 970px;
+	}
+	@media (min-width: $screen-lg) {
+		width: 1170px;
+	}
+}
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	&:before, &:after {
+	    content: '';
+	    display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.col {
+	width: 100%;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	@media (min-width: $screen-sm) {
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+}
+
+.btn {
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.42857143;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 4px;
+    -webkit-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+    &.btn-download {
+    	color: #fff;
+    	position: relative;
+    	margin: 0 10px 10px;
+    	i {
+    		position: absolute;
+		    top: 0;
+		    left: 0;
+		    margin: 10px 0 0 15px;
+		    font-size: 40px;
+		    line-height: 1;
+    	}
+    	strong {
+    		display: block;
+		    margin-bottom: 6px;
+		    font-weight: 800;
+    	}
+    	span {
+    		display: block;
+		    font-size: 11px;
+		    font-weight: 700;
+		    margin-top: -3px;
+		    opacity: 0.8;
+    	}
+    }
+    &.btn-download-app {
+    	text-align: left;
+    	letter-spacing: 1px;
+    	padding: 10px 20px 10px 60px;
+    }
+}
+
+.hero {
+	position: relative;
+	height: 900px;
+	background-image: url(../images/hero-bckg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.btn-wrapper {
+		margin: 0 -10px;
+	}
+	.app-icon img {
+		max-height: 70px;
+		@media (min-width: $screen-sm) {
+			max-height: 80px;
+		}
+		@media (min-width: $screen-md) {
+			max-height: 90px;
+		}
+	}
+	.hero-text {
+		color: #fff;
+		h1 {
+			font-size: 30px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			@media (min-width: $screen-sm) {
+				font-size: 40px;
+			}
+			@media (min-width: $screen-md) {
+				font-size: 50px;
+			}
+			@media (min-width: $screen-lg) {
+				font-size: 60px;
+			}
+			span {
+				font-weight: 700;
+			}
+		}
+		p {
+			font-size: 18px;
+			margin-bottom: 30px;
+		}		
+	}
+	.hero-image {
+		text-align: right;
+		img {
+			max-height: 630px;
+		}
+	}
+	.btn-download-app {
+		background-color: rgba(255, 255, 255, .4);
+		&:hover, &:focus {
+    		background-color: $blue-dark;
+    		color: #fff;
+    	}
+	}
+	.col-left {
+		@media (min-width: $screen-sm) {
+			width: 75%;
+		}	
+		@media (min-width: $screen-md) {
+			padding-top: 162px;
+		}
+	}
+	.col-right {
+		@media (min-width: $screen-sm) {
+			width: 25%;
+		}	
+		@media (min-width: $screen-md) {
+			padding-top: 96px;
+		}
+	}
+}
+
+.features {
+	background-color: $blue-dark;
+	.features-text {
+		color: #fff;
+		h1, h2, h3, h4 {
+			color: $pink;
+		}
+	}
+	.btn-download {
+		font-size: 18px;
+		font-family: $headline;
+		background-color: $pink;
+	}
+	.col-left {
+		@media (min-width: $screen-sm) {
+			width: 25%;
+		}	
+	}
+	.col-right {
+		@media (min-width: $screen-sm) {
+			width: 75%;
+		}	
+	}
 }
