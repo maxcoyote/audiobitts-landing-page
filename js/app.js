@@ -4,8 +4,6 @@ $(document).ready(function(){
     $('.wrapper').css('display','block');
 });
 
-// Test
-
 // Slick Slider
 $(document).ready(function(){
   $('.carousel').slick({
