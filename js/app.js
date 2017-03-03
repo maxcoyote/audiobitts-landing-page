@@ -1,3 +1,9 @@
+// Loader
+$(document).ready(function(){
+    $('.loader').css('display','none');
+    $('.wrapper').css('display','block');
+});
+
 // Slick Slider
 $(document).ready(function(){
   $('.carousel').slick({

@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 	<!-- Fancybox CSS -->
 	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<!-- CSS Loader -->
+	<link rel="stylesheet" href="css/css-loader.css">
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<!-- Font Awesome -->
@@ -21,6 +23,8 @@
 	<script src="js/jquery.fancybox.min.js"></script>
 </head>
 <body>
+<div class="loader loader-default is-active" data-blink></div>
+<div class="wrapper">
 	
 {{ content }}
 
@@ -57,6 +61,8 @@
 	</div>
 	<!-- /.footer -->
 </footer>
+
+</div><!-- /.wrapper -->
 
 <!-- Slick Slider JS -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
