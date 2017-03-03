@@ -7,38 +7,61 @@
 	<link rel="stylesheet" type="text/css" href="scss/styles.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Animate -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- Slick Slider CSS -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<!-- Fancybox CSS -->
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<!-- Font Awesome -->
 	<script src="https://use.fontawesome.com/c21da1126a.js"></script>
+	<!-- Fancybox JS -->
+	<script src="js/jquery.fancybox.min.js"></script>
 </head>
 <body>
 	
-	{{ content }}
-	
-	<footer>
-		<div class="footer">
-			<div><a class="btn-download" href="https://goo.gl/lrkMjj"></a></div>
-			<div class="social">
-				<ul class="social-icons">
-					<li class="social-icon-item">
-						<a href=""><i class="fa fa-facebook"></i></a>
-					</li>
-					<li class="social-icon-item">
-						<a href=""><i class="fa fa-twitter"></i></a>
-					</li>
-					<li class="social-icon-item">
-						<a href=""><i class="fa fa-instagram"></i></a>
-					</li>
-					<li class="social-icon-item">
-						<a href=""><i class="fa fa-pinterest"></i></a>
-					</li>
-					<li class="social-icon-item">
-						<a href=""><i class="fa fa-envelope"></i></a>
-					</li>
-				</ul>
-			</div>
-			<div><p>Copyright © Audiobitts, All rights reserved</p></div>
+{{ content }}
+
+<footer>
+	<div class="triangle"></div>
+	<div class="footer padtop">
+		<div>
+			<a class="btn btn-download btn-download-app" href="https://goo.gl/lrkMjj">
+				<i class="fa fa-apple"></i>
+				<strong>Download App</strong>
+				<span>from App Store</span>
+			</a>
 		</div>
-		<!-- /.footer -->
-	</footer>
+		<div class="social">
+			<ul class="social-icons">
+				<li class="social-icon-item">
+					<a href=""><i class="fa fa-facebook"></i></a>
+				</li>
+				<li class="social-icon-item">
+					<a href=""><i class="fa fa-twitter"></i></a>
+				</li>
+				<li class="social-icon-item">
+					<a href=""><i class="fa fa-instagram"></i></a>
+				</li>
+				<li class="social-icon-item">
+					<a href=""><i class="fa fa-pinterest"></i></a>
+				</li>
+				<li class="social-icon-item">
+					<a href=""><i class="fa fa-envelope"></i></a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright"><p>Copyright © Audiobitts. All rights reserved.</p></div>
+	</div>
+	<!-- /.footer -->
+</footer>
+
+<!-- Slick Slider JS -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<!-- Scripts -->
+<script src="js/app.js"></script>
 </body>
 </html>
