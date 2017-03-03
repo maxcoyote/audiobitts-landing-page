@@ -1,7 +1,11 @@
 ---
 ---
 
+// Museo Sans
 @import "MuseoSans-500";
+
+// Content Tabs
+@import "content-tabs";
 
 // Fonts
 $headline: 'MuseoSans-500', sans-serif;
@@ -131,6 +135,7 @@ a {
 	text-decoration: none;
 	&:hover, &:focus {
 		color: lighten(#ED345F, 20);
+		text-decoration: none;
 	}
 }
 
@@ -194,6 +199,7 @@ img {
 
 .btn {
 	display: inline-block;
+	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
 	line-height: 1.42857143;
