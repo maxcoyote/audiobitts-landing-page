@@ -1,5 +1,5 @@
 ---
-title: Hero
+title: Landing
 date: 2017-03-28 01:47:00 Z
 download button: |-
   <strong>Download App</strong>
