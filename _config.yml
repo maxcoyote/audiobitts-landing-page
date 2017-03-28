@@ -1,6 +1,6 @@
 ---
 title: Audiobitts Landing Page
-timezone: UTC
+timezone: America/Phoenix
 collections:
   posts:
     title: Posts
