@@ -1,7 +1,7 @@
 ---
 title: Hero
 date: 2017-03-28 01:47:00 Z
-Download Button: |-
+download button: |-
   <strong>Download App</strong>
   <span>from App Store</span>
 ---
