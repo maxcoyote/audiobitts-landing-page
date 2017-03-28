@@ -4,6 +4,7 @@ date: 2017-03-28 01:47:00 Z
 download button: |-
   <strong>Download App</strong>
   <span>from App Store</span>
+layout: default
 ---
 
 <h1>A fun way to capture and <span>share</span> the sounds around you</h1>
