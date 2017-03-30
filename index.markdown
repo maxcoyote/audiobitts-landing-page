@@ -1,6 +1,6 @@
 ---
 title: Landing
-date: 2017-03-28 01:47:00 Z
+date: 2017-03-27 18:47:00 -07:00
 download button: |-
   <strong>Download App</strong>
   <span>from App Store</span>
