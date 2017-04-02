@@ -32,6 +32,20 @@ checkmark_3: Make a special bond with your followers by sharing your behind the 
 checkmark_4: Take the opportunity to share your personal creations at music studio
   or with your favorite instrument.
 checkmark_5: Inspire others to take the mic, record something, and drop it…
+example_benefits: Tabbed examples of benefits
+tab_1: Capture the audio of anything when you need it.
+tab_2: Search what you want without the trouble of recording it yourself.
+tab_3: Engage an audience for your sounds.
+quote: |-
+  <h3><em>The more we share,
+  <br>The more we have</em>
+  <span>- Leonard Nimoy</span></h3>
+cta: |-
+  <h2 class="line">Set Up Your Profile</h2>
+  <p>Make a profile that is visible to the public and shows them information about your interests and also your contact information for social networking.</p>
+screenshots: |-
+  <h2 class="line">Screenshots</h2>
+  <p>Our beautiful colors and design are visible in the images given below.</p>
 layout: index
 ---
 
