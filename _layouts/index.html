@@ -9,7 +9,7 @@ layout: default
 			<div class="col col-left">
 				<div class="app-icon"><img src="images/app-icon.png" alt="Audiobitts-App-Icon"></div>
 				<div class="hero-text">
-					{{content}}
+					{{ content }}
 				</div>
 				<div class="btn-wrapper">
 					<a class="btn btn-download btn-download-app" href="https://goo.gl/lrkMjj">
@@ -57,15 +57,12 @@ layout: default
 									<div class="feature-item-icon play"></div>
 									<div class="feature-item-text">
 										{{ page.play }}
-										<h4>Play</h4>
-										<p>Experience the highest quality audio by tapping the Play button just like you would on your iPod.</p>
 									</div>
 								</li>
 								<li class="feature-item">
 									<div class="feature-item-icon like"></div>
 									<div class="feature-item-text">
-										<h4>Like</h4>
-										<p>Show your appreciation for your favorite audio clips and people around the globe.</p>
+										{{ page.like }}
 									</div>
 								</li>
 							</ul>
@@ -75,22 +72,19 @@ layout: default
 								<li class="feature-item">
 									<div class="feature-item-icon share"></div>
 									<div class="feature-item-text">
-										<h4>Share</h4>
-										<p>Duplicate your experience for other users by hitting the Share button.</p>
+										{{ page.share }}
 									</div>
 								</li>
 								<li class="feature-item">
 									<div class="feature-item-icon comment"></div>
 									<div class="feature-item-text">
-										<h4>Comment</h4>
-										<p>Make the communication two-way by commenting and engaging with users.</p>
+										{{ page.comment }}
 									</div>
 								</li>
 								<li class="feature-item">
 									<div class="feature-item-icon explore"></div>
 									<div class="feature-item-text">
-										<h4>Explore</h4>
-										<p>Find what your heart desires in the realm of unparalleled audio available only on AudioBitts.</p>
+										{{ page.explore }}
 									</div>
 								</li>
 							</ul>
@@ -113,14 +107,13 @@ layout: default
 		</div>
 		<div class="col nopad col-right content-center">
 			<div class="share-more">
-				<h3>Share more than ever before</h3>
-				<p>We have created something special so you can now combine an Image with Audio and Caption it to create a powerful experience known as a Bitt, or AudioBitts.</p>
+				{{ page.share_more }}
 				<ul class="checkmarks">
-					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; Find and Share your true voice with your friends and also make new friends.</li>
-					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; Enable others to find your favorite audio, music, or speech on the web.</li>
-					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; Make a special bond with your followers by sharing your behind the scenes commentary.</li>
-					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; Take the opportunity to share your personal creations at music studio or with your favorite instrument.</li>
-					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; Inspire others to take the mic, record something, and drop it…</li>
+					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; {{ page.checkmark_1 }}</li>
+					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; {{ page.checkmark_2 }}</li>
+					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; {{ page.checkmark_3 }}</li>
+					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; {{ page.checkmark_4 }}</li>
+					<li class="checkmark-item"><i class="fa fa-check"></i> &nbsp; {{ page.checkmark_5 }}</li>
 				</ul>
 			</div>
 		</div>
@@ -128,7 +121,7 @@ layout: default
 	<div class="row nomarg">
 		<div class="col nopad col-left content-center">
 			<div class="example-benefits">
-				<h3>Tabbed examples of benefits</h3>
+				<h3>{{ page.example_benefits }}</h3>
 				<div class="tab-wrap" role="tabpanel">
 					<ul class="nav nav-tabs" role="tablist">
 						<li role="presentation" class="active">
@@ -143,15 +136,15 @@ layout: default
 					</ul>
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane active" id="first">
-							<p>Capture the audio of anything when you need it.</p>
+							<p>{{ page.tab_1 }}</p>
 							<p><a class="link" href="https://goo.gl/lrkMjj">Download</a></p>
 						</div>
 						<div role="tabpanel" class="tab-pane" id="second">
-							<p>Search what you want without the trouble of recording it yourself.</p>
+							<p>{{ page.tab_2 }}</p>
 							<p><a class="link" href="https://goo.gl/lrkMjj">Download</a></p>
 						</div>
 						<div role="tabpanel" class="tab-pane" id="third">
-							<p>Engage an audience for your sounds.</p>
+							<p>{{ page.tab_3 }}</p>
 							<p><a class="link" href="https://goo.gl/lrkMjj">Download</a></p>
 						</div>
 					</div><!-- /.tab-content -->
@@ -161,9 +154,7 @@ layout: default
 		<div class="col nopad col-right">
 			<div class="img-wrap quote-image"><img src="images/quote.jpg" align="Quote-images"></div>
 			<div class="quote">
-				<h3><em>The more we share,
-				<br>The more we have</em>
-				<span>- Leonard Nimoy</span>
+				{{ page.quote }}
 				</h3>
 			</div>
 		</div>
@@ -174,8 +165,7 @@ layout: default
 <div class="cta">
 	<div class="cta-overlay">
 		<div class="cta-text">
-			<h2 class="line">Set Up Your Profile</h2>
-			<p>Make a profile that is visible to the public and shows them information about your interests and also your contact information for social networking.</p>
+			{{ page.cta }}
 			<div><a class="btn btn-download" href="https://goo.gl/lrkMjj">Download Now</a></div>
 		</div>
 	</div>
@@ -185,8 +175,7 @@ layout: default
 <div class="screenshots padtopmore padbottommore">
 	<div class="container">
 		<div class="screenshot-text">
-			<h2 class="line">Screenshots</h2>
-			<p>Our beautiful colors and design are visible in the images given below.</p>
+			{{ page.screenshots }}
 		</div>
 		<div class="carousel">
 			<div><a data-fancybox="gallery" href="images/slide-menu.jpg"><img src="images/slide-menu.jpg" alt="Slide-Menu"></a></div>
