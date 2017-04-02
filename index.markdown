@@ -4,7 +4,9 @@ date: 2017-04-02 09:40:00 -07:00
 social: |-
   <h2>A Social Learning Experience</h2>
   <p>When it comes to social, we are leading with audio so you can listen to your friends and strangers alike for what they have to say and offer.</p>
-Field name: 
+record: |-
+  <h4>Record</h4>
+  <p>A technical feat is the microphone on your smartphone, use it now to record anything you want.</p>
 layout: index
 ---
 
