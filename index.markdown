@@ -1,6 +1,7 @@
 ---
 title: Index
 date: 2017-04-02 09:40:00 -07:00
+layout: index
 ---
 
 <h1>A fun way to capture and <span>share</span> the sounds around you</h1>
