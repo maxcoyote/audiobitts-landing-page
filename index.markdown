@@ -7,6 +7,7 @@ social: |-
 record: |-
   <h4>Record</h4>
   <p>A technical feat is the microphone on your smartphone, use it now to record anything you want.</p>
+play: test
 layout: index
 ---
 
