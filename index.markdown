@@ -46,17 +46,6 @@ cta: |-
 screenshots: |-
   <h2 class="line">Screenshots</h2>
   <p>Our beautiful colors and design are visible in the images given below.</p>
-ga: |-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-73301780-2', 'auto');
-    ga('send', 'pageview');
-
-  </script>
 layout: index
 ---
 
