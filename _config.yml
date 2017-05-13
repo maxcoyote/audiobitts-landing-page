@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Audiobitts Landing Page
+name: Audiobitts
 markdown: kramdown
 sass:
   sass_dir: _scss
