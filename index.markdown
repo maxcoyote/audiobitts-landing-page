@@ -46,7 +46,7 @@ cta: |-
 screenshots: |-
   <h2 class="line">Screenshots</h2>
   <p>Our beautiful colors and design are visible in the images given below.</p>
-layout: default
+layout: index
 ---
 
 <h1>A fun way to capture and <span>share</span> the sounds around you</h1>
